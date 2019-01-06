@@ -1,5 +1,6 @@
 #!/bin/bash
 #NodeKey gen by bootnode -genkey bootnode.key
+# sealer/miner acc from MINER_PRVK : 4863828C08e95bf1a1128352BC022251C85eCfFd
 #import miner : personal.importRawKey("E945893DE099593A98AE8F5831B93FA0F9FACF4A204D52AA1D960EF43B2B6176","12345678")
 #File must be .txt aka plain text
 #File must not have any extra characters, spaces, or lines.
