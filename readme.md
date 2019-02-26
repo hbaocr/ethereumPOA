@@ -1,3 +1,7 @@
+
+
+
+
 ## Note the current geth and pupeth (1.8.2) are OsX binaries, if you want to use with another Os,please replace them with the suitable binaries for your Os  
 
 * In PoA, only authorized miners(assume total N miners) can seal the blocks and get block rewards
@@ -8,6 +12,11 @@
 
 PrvKey Account 1 ( after genesis)
 319FF6D750413E02B2754FC163D83513878DBC1D06815CCB2EB00A983887EF53
+
+---
+## Dirty Tip:
+
+To prevent the reset number of prefunded ETH to 0 (magic bug), **the pre-funded account must be  different from the sealer**
 
 ---
 ## [Geth PoA Algorithm](https://github.com/ethereum/EIPs/issues/225) In short, the facts for a system with N sealers:
