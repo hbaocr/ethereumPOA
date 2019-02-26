@@ -16,8 +16,8 @@ PrvKey Account 1 ( after genesis)
 ---
 ## Dirty Tip:
 
-To prevent the reset number of prefunded ETH to 0 (magic bug), **the pre-funded account must be  different from the sealer**
-
+* To prevent the reset number of prefunded ETH to 0 (magic bug), **the pre-funded account must be  different from the sealer**
+* PoA of Geth is different from PoA of Parity. so they can not work together
 ---
 ## [Geth PoA Algorithm](https://github.com/ethereum/EIPs/issues/225) In short, the facts for a system with N sealers:
 
