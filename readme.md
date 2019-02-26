@@ -25,12 +25,12 @@ PrvKey Account 1 ( after genesis)
 * The sealers are preconfigured in extra field of genesis.json when launching the PoA blockchain network. However they can be remove or add new by using the **Clique** protocol ( must be active when run the node along with web3,rpc,admin,clique,...)
 * Sealer on a PoA is like a miner on PoW. You start a sealer with geth --mine --unlock "0xa132432bf" with a genesis using the clique consensus. The initial sealers are defined in the genesis block.
 
-  * List sealers clique.getSigners()
-  * List propositions: clique.proposals
-  * Discard a proposition: clique.discard("0x1234234234234")
-  * Add a new sealer: clique.propose("0x1234243214312", true)
-  * Remove a sealer: clique.propose("0x1234243214312", false)
-* So if you want to add a new sealer: you must use geth attach on > 50% of your sealers. Do a proposition with clique.propose. Wait few minutes and check state with clique.getSigners(). When the operation is completed, you can discard your proposition with clique.discard.
+  * List sealers **clique.getSigners()
+  * List propositions: **clique.proposals**
+  * Discard a proposition: **clique.discard**("0x1234234234234")
+  * Add a new sealer: **clique.propose**("0x1234243214312", true)
+  * Remove a sealer: **clique.propose**("0x1234243214312", false)
+* So if you want to add a new sealer: **you must use geth attach on > 50% of your sealers**. Do a proposition with **clique.propose** . Wait few minutes and check state with **clique.getSigners()**. When the operation is completed, you can discard your proposition with **clique.discard**.
 * PS: you must use clique commands on sealers
 
 
