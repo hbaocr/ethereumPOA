@@ -1,5 +1,5 @@
 
-## Setup PoA note
+## Setup PoA note [full guide here](https://hackernoon.com/setup-your-own-private-proof-of-authority-ethereum-network-with-geth-9a0a3750cda8)
 
 Note the current geth and pupeth (1.8.2) are OsX binaries, if you want to use with another Os,please replace them with the suitable binaries for your Os  
 
