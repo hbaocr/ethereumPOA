@@ -1,8 +1,7 @@
+---
+## Setup PoA note
 
-
-
-
-## Note the current geth and pupeth (1.8.2) are OsX binaries, if you want to use with another Os,please replace them with the suitable binaries for your Os  
+Note the current geth and pupeth (1.8.2) are OsX binaries, if you want to use with another Os,please replace them with the suitable binaries for your Os  
 
 * In PoA, only authorized miners(assume total N miners) can seal the blocks and get block rewards
 * In PoA, authorized miners are defined in genesis block(by genesis.json). This file can be genrated by `pupeth` and choose (Clique mode)
